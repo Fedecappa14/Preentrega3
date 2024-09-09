@@ -1,0 +1,52 @@
+[
+    {
+        "id": "ASTROSKATE",
+        "name": "ASTROSKATE",
+        "price": 2800
+        
+    },
+        
+    {
+        "id": "VENECO",
+        "name": "VENECO",
+        "price": 2800
+    },
+        
+    {
+        "id": "DOPED",
+        "name": "DOPED",
+        "price": 3800
+         
+    },
+    {
+        "id": "HONGO",
+        "name": "HONGO",
+        "price": 3800
+        
+    },
+    {
+        "id": "PECES KOY",
+        "name": "PECES KOY",
+        "price": 3500
+    
+    },
+    {
+        "id": "PYRAM",
+        "name": "PYRAM",
+        "price": 2800
+         
+    },
+    {
+        "id": "CALAGALACTICA",
+        "name": "CALAGALACTICA",
+        "price": 2500
+         
+    },
+    
+    {
+        "id": "TIGRE",
+        "name": "TIGRE",
+        "price": 4900
+         
+    }
+]

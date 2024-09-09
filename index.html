@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/css.styles.css">
+</head>
+
+<body>
+    <header>
+        <img class:="imagenfondo" src="../entrega 3/images/imagenfondo.jpg" alt="imagenfondo" width="" height="">
+        <div class="logo-container">
+            <img class:="imagenlogo" src="../entrega 3/images/universo electrico logo png.png" alt="logooriginal"
+                width="400" height="">
+
+        </div>
+        <nav>
+            <ul>
+                <li><a href="./index.html">INICIO</a></li>
+                <li><a href="#compra">COMPRAR</a></li>
+                <li><a href="#quienes-somos">QUIENES SOMOS</a></li>
+                <li><a href="#contacto">CONTACTO</a></li>
+                <li><a href="#SUMATE">SUMATE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>UNIVERSO ELECTRICO</h1>
+        <h3>Poster en Serigrafia</h3>
+        <div class="comunidad">
+            <h2>Unite a Nuestra Comunidad</h2>
+            <form id="join-form">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo Electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Unirse</button>
+                </div>
+            </form>
+        </div>
+        </div>
+      
+
+    <section id="poster">
+        <h2>Productos</h2>
+        <div class="product-grid">
+            <div class="product" data-id="ASTROSKATE" data-price="2800">
+                <div class="galeria">
+                    <img src="../entrega 3/images/astroskate serigrafia.jpg" alt="ASTROSKATE"
+                        onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">ASTROSKATE</p>
+                        <p class="precio">$2800</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product" data-id="VENECO" data-price="2800">
+                <div class="galeria">
+                    <img src="../entrega 3/images/COBRA serigrafia.jpg" alt="VENECO" onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">VENECO</p>
+                        <p class="precio">$2800</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product" data-id="DOPED" data-price="3800">
+                <div class="galeria">
+                    <img src="../entrega 3/images/DOPED serigrafia.jpg" alt="DOPED" onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">DOPED</p>
+                        <p class="precio">$3800</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product" data-id="HONGO" data-price="3800">
+                <div class="galeria">
+                    <img src="../entrega 3/images/HONGOSserigrafia.jpg" alt="HONGO" onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">HONGO</p>
+                        <p class="precio">$3800</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product" data-id="PECES KOY" data-price="3500">
+                <div class="galeria">
+                    <img src="../entrega 3/images/koyserigrafia.jpg" alt="PECES KOY" onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">PECES KOY</p>
+                        <p class="precio">$3500</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product" data-id="PYRAM" data-price="2800">
+                <div class="galeria">
+                    <img src="../entrega 3/images/piramide serigrafia.jpg" alt="PYRAM"
+                        onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">PYRAM</p>
+                        <p class="precio">$2800</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product" data-id="CALAGALACTICA" data-price="2500">
+                <div class="galeria">
+                    <img src="../entrega 3/images/recuadroserigrafia.jpg" alt="CALAGALCTICA"
+                        onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">CALAGALACTICA</p>
+                        <p class="precio">$2500</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+            <div class="product" data-id="TIGRE" data-price="4900">
+                <div class="galeria">
+                    <img src="../entrega 3/images/TIGRE serigrafia.jpg" alt="TIGRE" onclick="openImageModal(this)">
+                    <div class="info">
+                        <p class="texto">TIGRE</p>
+                        <p class="precio">$4900</p>
+                    </div>
+                </div>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </div>
+        </div>
+
+
+        <!-- Modal del carrito -->
+        
+        <div id="cartModal" class="modal">
+            <div class="modal-content">
+                <span class="btn-close" onclick="closeModal('cartModal')">&times;</span>
+                <div class="modal-header">
+                    <h5 class="modal-title">Carrito de Compras</h5>
+                </div>
+                <div class="modal-body" id="cartItems">
+                    <!-- Los productos del carrito se añadirán aquí -->
+                </div>
+                <div class="modal-footer">
+                    <strong>Total: $<span id="totalAmount">0.00</span></strong>
+                    <div>
+                        <button id="checkoutButton" class="btn btn-primary">Finalizar Compra</button>
+                        <button id="clearCartButton" class="btn btn-secondary">Vaciar Carrito</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Botón para abrir el modal del carrito -->
+        <button id="openCart" class="btn btn-primary">Abrir Carrito</button>
+        <!-- Contenedor de productos -->
+        <div id="product-grid" class="container">
+            <!-- Los productos se cargan -->
+        </div>
+        
+        
+        <script src="./product.json"></script>
+        <script src="./app.js"></script>
+       
+       
+</body>
+
+</html>
